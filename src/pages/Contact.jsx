@@ -2,18 +2,9 @@ import React from 'react'
 import Navpc from '../component/Navpc'
 import { Link } from 'react-router-dom'
 import playbut from  '../assets/playbut.png'
-import navicon1 from '../assets/navicon1.png'
-import Home  from '../assets/Home.png'
-import twitter from '../assets/twitter.png'
-import twitter1 from '../assets/twitter1.png'
-import facebook from '../assets/facebook.png'
-import facebook1 from '../assets/facebook1.png'
-import instagram from '../assets/instagram.png'
-import instagram1 from '../assets/instagram1.png'
-import linkedin from '../assets/linkedin.png'
-import linkedin1 from '../assets/linkedin1.png'
+import Home  from '../assets/home.png'
 import Mainfooter from '../component/Mainfooter'
-import Footer from '../component/footer'
+
 
 const Contact = () => {
   return (
@@ -111,19 +102,6 @@ const Contact = () => {
       <div className='sec10'>
       <Mainfooter/>     
       </div>
-
-
-      {/* <div>
-        <Footer/>
-      </div> */}
-      
-
-
-
-
-
-
-
 
     </div>
   )
