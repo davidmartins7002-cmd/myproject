@@ -1,0 +1,77 @@
+.navmain{
+    height: 80px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.navicon{
+    display: flex;
+    object-fit: contain;
+    height: 70%;
+    width: 30%;
+    padding-left: 110px;
+    /* background-color: blue; */
+
+}
+
+.navsub1{
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navsub1 a {
+    text-decoration: none;
+}
+
+.navsub1a{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbut{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbut button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #5cbe2d;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #5cbe2d;
+    border-radius: 60px;
+    transition: 0.3s;
+}
+
+.navbut button:hover{
+    background-color: #5cbe2d;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+@Media(width<=500px){
+    .navmain{
+        display: none;
+    }
+
+}
